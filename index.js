@@ -11,7 +11,7 @@ Creation of a server
  */
 http.createServer(function (request, response) {
     var query = url.parse(request.url, true);
-    if( query.pathname === "/synchronous"){
+    if( query.pathname === "/asynchronous"){
         /*
         Getting query from url using url module
          */
